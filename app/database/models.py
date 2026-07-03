@@ -6,10 +6,12 @@ class ChatHistory(Base):
     """
     Model for storing conversation history.
     Saves the user request and corresponding response schema returned to frontend.
+    Each record is scoped to a unique session_id for multi-user isolation.
     """
     __tablename__ = "chat_history"
 
     id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String(36), nullable=False, index=True)
     student_id = Column(String(50), nullable=False, index=True)
     query = Column(Text, nullable=False)
     intent = Column(String(100), nullable=True)
@@ -22,10 +24,12 @@ class ExecutionLog(Base):
     """
     Model for storing detailed system performance and agent reasoning logs.
     Captures execution planning, errors, response times, and LLM usage.
+    Each record is scoped to a unique session_id for multi-user isolation.
     """
     __tablename__ = "execution_logs"
 
     id = Column(Integer, primary_key=True, index=True)
+    session_id = Column(String(36), nullable=False, index=True)
     student_id = Column(String(50), nullable=False, index=True)
     query = Column(Text, nullable=False)
     intent = Column(String(100), nullable=True)

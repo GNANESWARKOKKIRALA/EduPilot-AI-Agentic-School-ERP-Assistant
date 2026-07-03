@@ -39,8 +39,9 @@ def post_chat(request: ChatRequest, db: Session = Depends(get_db), x_groq_api_ke
     POST /chat
     Executes intent classification, planning, tool running,
     and returns a structured Agentic ERP response.
+    session_id is required for multi-user conversation isolation.
     """
-    logger.info(f"Received API chat request for student: {request.student_id}")
+    logger.info(f"Received API chat request for session: {request.session_id}, student: {request.student_id}")
     
     # 1. Input pre-validation
     if not request.message.strip():
@@ -58,11 +59,12 @@ def post_chat(request: ChatRequest, db: Session = Depends(get_db), x_groq_api_ke
             detail=str(ve)
         )
         
-    # 2. Run Agentic Loop
+    # 2. Run Agentic Loop (with session_id for isolation)
     try:
         service = ChatService(api_key=x_groq_api_key)
         response_payload = service.process_user_message(
             db=db,
+            session_id=request.session_id,
             student_id=request.student_id,
             message=request.message
         )

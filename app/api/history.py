@@ -11,6 +11,7 @@ router = APIRouter(prefix="/chat/history", tags=["History"])
 
 @router.get("", response_model=List[ChatHistoryItem])
 def get_history(
+    session_id: str = Query(..., description="Required unique session ID for user-isolated history retrieval"),
     student_id: str = Query(None, description="Filter conversation logs by student ID"),
     limit: int = Query(50, ge=1, le=100, description="Number of historical records to return"),
     db: Session = Depends(get_db)
@@ -18,11 +19,12 @@ def get_history(
     """
     GET /chat/history
     Fetches chat logs stored in the SQLite database.
-    Can be filtered by student_id to show student-specific history.
+    REQUIRES session_id to ensure only the requesting user's conversations are returned.
+    Can be additionally filtered by student_id.
     """
-    logger.info(f"Fetching history records (limit={limit}, student_filter={student_id})")
+    logger.info(f"Fetching history records (session={session_id}, limit={limit}, student_filter={student_id})")
     
-    query_builder = db.query(ChatHistory)
+    query_builder = db.query(ChatHistory).filter(ChatHistory.session_id == session_id)
     if student_id:
         query_builder = query_builder.filter(ChatHistory.student_id == student_id)
         

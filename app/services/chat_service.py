@@ -13,6 +13,7 @@ class ChatService:
     """
     Service layer coordinating the Agentic loop.
     Loads context -> Plan -> Execute -> Reason -> Save logs/history -> Return payload.
+    All operations are scoped by session_id for multi-user isolation.
     """
     def __init__(self, api_key: str = None):
         self.llm_service = LLMService(api_key=api_key)
@@ -20,16 +21,19 @@ class ChatService:
         self.executor = Executor()
         self.reasoning = Reasoning(self.llm_service)
 
-    def process_user_message(self, db: Session, student_id: str, message: str) -> dict:
+    def process_user_message(self, db: Session, session_id: str, student_id: str, message: str) -> dict:
         """
         Orchestrates intent classification, planning, tool execution,
         and natural language reply synthesis. Logs runtime metrics.
+        session_id ensures all memory and logs are user-isolated.
         """
         start_time = time.perf_counter()
         
-        # 1. Fetch memory/context history
-        logger.info(f"Loading history for student {student_id}")
-        conversation_history = MemoryManager.get_conversation_history(db, student_id=student_id)
+        # 1. Fetch memory/context history (filtered by session_id)
+        logger.info(f"Loading history for session {session_id}, student {student_id}")
+        conversation_history = MemoryManager.get_conversation_history(
+            db, student_id=student_id, session_id=session_id
+        )
         
         total_tokens = 0
         errors = None
@@ -95,11 +99,12 @@ class ChatService:
         final_payload["execution_time"] = round(elapsed_seconds, 4)
         
         # 6. Database Logging
-        # A: Save Chat History (for future memory context)
+        # A: Save Chat History (for future memory context, scoped by session_id)
         serialized_response = json.dumps(final_payload)
         try:
             MemoryManager.save_chat(
                 db=db,
+                session_id=session_id,
                 student_id=student_id,
                 query=message,
                 intent=final_payload["intent"],
@@ -110,9 +115,10 @@ class ChatService:
         except Exception as ex:
             logger.error(f"Failed to record Chat History record: {str(ex)}")
 
-        # B: Save Execution Log (internal metrics dashboard)
+        # B: Save Execution Log (internal metrics dashboard, scoped by session_id)
         try:
             execution_log = ExecutionLog(
+                session_id=session_id,
                 student_id=student_id,
                 query=message,
                 intent=final_payload["intent"],

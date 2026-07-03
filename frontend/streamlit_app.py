@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import uuid
 import streamlit as st
 import time
 from datetime import datetime
@@ -28,6 +29,15 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# ─────────────────────────────────────────────
+# MULTI-USER SESSION ISOLATION
+# Generate a unique session_id (UUID) for every new visitor.
+# Stored in st.session_state so it persists across reruns
+# within the same browser session but is unique per user.
+# ─────────────────────────────────────────────
+if "session_id" not in st.session_state:
+    st.session_state.session_id = str(uuid.uuid4())
 
 # Dark Professional Custom CSS styling for premium SaaS-like look
 st.markdown(
@@ -335,13 +345,20 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Fetch chat logs from SQLite to initialize conversation history on student change
+# FILTERED BY session_id so each user only sees their own conversations
 if "last_sid" not in st.session_state or st.session_state.last_sid != active_sid:
     st.session_state.last_sid = active_sid
     st.session_state.messages = []
     
     db = SessionLocal()
     try:
-        query_builder = db.query(ChatHistory).filter(ChatHistory.student_id == active_sid)
+        query_builder = (
+            db.query(ChatHistory)
+            .filter(
+                ChatHistory.session_id == st.session_state.session_id,
+                ChatHistory.student_id == active_sid
+            )
+        )
         records = query_builder.order_by(ChatHistory.timestamp.desc()).limit(10).all()
         
         # Chronological sorting for rendering
@@ -423,12 +440,14 @@ if user_query:
         
     st.session_state.messages.append({"role": "user", "content": user_query})
     
-    # Run the Agentic Chat Service process directly
+    # Run the Agentic Chat Service process directly (with session_id for isolation)
     db = SessionLocal()
     try:
         with st.spinner("EduPilot AI is planning and querying ERP tools..."):
             chat_service = ChatService()
-            data = chat_service.process_user_message(db, active_sid, user_query)
+            data = chat_service.process_user_message(
+                db, st.session_state.session_id, active_sid, user_query
+            )
             
             # Render final summary with real-time typewriter effect
             def stream_summary():
