@@ -1,0 +1,402 @@
+{
+  "ST101": {
+    "student_name": "Aarav Mehta",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 45,
+        "Science": 85,
+        "English": 80,
+        "Social Studies": 60,
+        "Computer Science": 60
+      },
+      "Midterm": {
+        "Mathematics": 45,
+        "Science": 82,
+        "English": 78,
+        "Social Studies": 81,
+        "Computer Science": 79
+      }
+    }
+  },
+  "ST102": {
+    "student_name": "Diya Sharma",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 65,
+        "Science": 75,
+        "English": 65,
+        "Social Studies": 60,
+        "Computer Science": 85
+      },
+      "Midterm": {
+        "Mathematics": 64,
+        "Science": 84,
+        "English": 63,
+        "Social Studies": 66,
+        "Computer Science": 68
+      }
+    }
+  },
+  "ST103": {
+    "student_name": "Ishaan Patel",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 45,
+        "Science": 80,
+        "English": 70,
+        "Social Studies": 60,
+        "Computer Science": 65
+      },
+      "Midterm": {
+        "Mathematics": 47,
+        "Science": 82,
+        "English": 68,
+        "Social Studies": 65,
+        "Computer Science": 67
+      }
+    }
+  },
+  "ST104": {
+    "student_name": "Ananya Iyer",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 50,
+        "Science": 65,
+        "English": 65,
+        "Social Studies": 70,
+        "Computer Science": 60
+      },
+      "Midterm": {
+        "Mathematics": 55,
+        "Science": 83,
+        "English": 79,
+        "Social Studies": 66,
+        "Computer Science": 63
+      }
+    }
+  },
+  "ST105": {
+    "student_name": "Kabir Joshi",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 80,
+        "Science": 70,
+        "English": 70,
+        "Social Studies": 85,
+        "Computer Science": 70
+      },
+      "Midterm": {
+        "Mathematics": 81,
+        "Science": 63,
+        "English": 71,
+        "Social Studies": 80,
+        "Computer Science": 61
+      }
+    }
+  },
+  "ST106": {
+    "student_name": "Meera Nair",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 60,
+        "Science": 60,
+        "English": 60,
+        "Social Studies": 85,
+        "Computer Science": 65
+      },
+      "Midterm": {
+        "Mathematics": 74,
+        "Science": 68,
+        "English": 81,
+        "Social Studies": 66,
+        "Computer Science": 79
+      }
+    }
+  },
+  "ST107": {
+    "student_name": "Rohan Gupta",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 55,
+        "Science": 80,
+        "English": 65,
+        "Social Studies": 65,
+        "Computer Science": 70
+      },
+      "Midterm": {
+        "Mathematics": 44,
+        "Science": 72,
+        "English": 74,
+        "Social Studies": 82,
+        "Computer Science": 70
+      }
+    }
+  },
+  "ST108": {
+    "student_name": "Siddharth Rao",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 75,
+        "Science": 35,
+        "English": 75,
+        "Social Studies": 75,
+        "Computer Science": 80
+      },
+      "Midterm": {
+        "Mathematics": 84,
+        "Science": 42,
+        "English": 71,
+        "Social Studies": 72,
+        "Computer Science": 64
+      }
+    }
+  },
+  "ST109": {
+    "student_name": "Tara Deshmukh",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 100,
+        "Science": 90,
+        "English": 95,
+        "Social Studies": 95,
+        "Computer Science": 90
+      },
+      "Midterm": {
+        "Mathematics": 93,
+        "Science": 86,
+        "English": 93,
+        "Social Studies": 92,
+        "Computer Science": 91
+      }
+    }
+  },
+  "ST110": {
+    "student_name": "Aditya Kulkarni",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 50,
+        "Science": 80,
+        "English": 75,
+        "Social Studies": 75,
+        "Computer Science": 75
+      },
+      "Midterm": {
+        "Mathematics": 48,
+        "Science": 83,
+        "English": 76,
+        "Social Studies": 65,
+        "Computer Science": 73
+      }
+    }
+  },
+  "ST111": {
+    "student_name": "Neha Verma",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 65,
+        "Science": 35,
+        "English": 70,
+        "Social Studies": 75,
+        "Computer Science": 80
+      },
+      "Midterm": {
+        "Mathematics": 68,
+        "Science": 40,
+        "English": 64,
+        "Social Studies": 70,
+        "Computer Science": 85
+      }
+    }
+  },
+  "ST112": {
+    "student_name": "Vivaan Kapoor",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 55,
+        "Science": 60,
+        "English": 80,
+        "Social Studies": 75,
+        "Computer Science": 60
+      },
+      "Midterm": {
+        "Mathematics": 49,
+        "Science": 75,
+        "English": 60,
+        "Social Studies": 70,
+        "Computer Science": 77
+      }
+    }
+  },
+  "ST113": {
+    "student_name": "Riya Sen",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 85,
+        "Science": 70,
+        "English": 65,
+        "Social Studies": 65,
+        "Computer Science": 65
+      },
+      "Midterm": {
+        "Mathematics": 75,
+        "Science": 61,
+        "English": 85,
+        "Social Studies": 84,
+        "Computer Science": 80
+      }
+    }
+  },
+  "ST114": {
+    "student_name": "Arjun Reddy",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 100,
+        "Science": 100,
+        "English": 90,
+        "Social Studies": 100,
+        "Computer Science": 90
+      },
+      "Midterm": {
+        "Mathematics": 86,
+        "Science": 92,
+        "English": 92,
+        "Social Studies": 93,
+        "Computer Science": 91
+      }
+    }
+  },
+  "ST115": {
+    "student_name": "Kavya Bhat",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 60,
+        "Science": 50,
+        "English": 60,
+        "Social Studies": 85,
+        "Computer Science": 80
+      },
+      "Midterm": {
+        "Mathematics": 79,
+        "Science": 51,
+        "English": 79,
+        "Social Studies": 71,
+        "Computer Science": 62
+      }
+    }
+  },
+  "ST116": {
+    "student_name": "Sai Prasad",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 40,
+        "Science": 65,
+        "English": 85,
+        "Social Studies": 65,
+        "Computer Science": 70
+      },
+      "Midterm": {
+        "Mathematics": 50,
+        "Science": 83,
+        "English": 69,
+        "Social Studies": 82,
+        "Computer Science": 63
+      }
+    }
+  },
+  "ST117": {
+    "student_name": "Pranav Pillai",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 65,
+        "Science": 85,
+        "English": 85,
+        "Social Studies": 60,
+        "Computer Science": 70
+      },
+      "Midterm": {
+        "Mathematics": 84,
+        "Science": 68,
+        "English": 76,
+        "Social Studies": 81,
+        "Computer Science": 81
+      }
+    }
+  },
+  "ST118": {
+    "student_name": "Shruti Hegde",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 100,
+        "Science": 95,
+        "English": 100,
+        "Social Studies": 90,
+        "Computer Science": 95
+      },
+      "Midterm": {
+        "Mathematics": 98,
+        "Science": 86,
+        "English": 87,
+        "Social Studies": 90,
+        "Computer Science": 95
+      }
+    }
+  },
+  "ST119": {
+    "student_name": "Dev Shah",
+    "class": "10-A",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 85,
+        "Science": 45,
+        "English": 80,
+        "Social Studies": 75,
+        "Computer Science": 60
+      },
+      "Midterm": {
+        "Mathematics": 66,
+        "Science": 54,
+        "English": 76,
+        "Social Studies": 64,
+        "Computer Science": 61
+      }
+    }
+  },
+  "ST120": {
+    "student_name": "Alisha Das",
+    "class": "10-B",
+    "exams": {
+      "Unit Test 1": {
+        "Mathematics": 80,
+        "Science": 70,
+        "English": 80,
+        "Social Studies": 80,
+        "Computer Science": 75
+      },
+      "Midterm": {
+        "Mathematics": 60,
+        "Science": 61,
+        "English": 81,
+        "Social Studies": 68,
+        "Computer Science": 76
+      }
+    }
+  }
+}

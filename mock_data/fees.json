@@ -1,0 +1,366 @@
+{
+  "ST101": {
+    "student_name": "Aarav Mehta",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN44760",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST102": {
+    "student_name": "Diya Sharma",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN23789",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST103": {
+    "student_name": "Ishaan Patel",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN79386",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST104": {
+    "student_name": "Ananya Iyer",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN57134",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST105": {
+    "student_name": "Kabir Joshi",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 12000,
+    "pending_fees": 0,
+    "due_date": "2026-07-15",
+    "status": "Paid",
+    "transactions": [
+      {
+        "id": "TXN10146",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      },
+      {
+        "id": "TXN65505",
+        "amount": 6000,
+        "date": "2026-06-28",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST106": {
+    "student_name": "Meera Nair",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN17790",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST107": {
+    "student_name": "Rohan Gupta",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN51956",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST108": {
+    "student_name": "Siddharth Rao",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 12000,
+    "pending_fees": 0,
+    "due_date": "2026-07-15",
+    "status": "Paid",
+    "transactions": [
+      {
+        "id": "TXN46365",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      },
+      {
+        "id": "TXN91080",
+        "amount": 6000,
+        "date": "2026-06-28",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST109": {
+    "student_name": "Tara Deshmukh",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN88245",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST110": {
+    "student_name": "Aditya Kulkarni",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 12000,
+    "pending_fees": 0,
+    "due_date": "2026-07-15",
+    "status": "Paid",
+    "transactions": [
+      {
+        "id": "TXN95657",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      },
+      {
+        "id": "TXN45447",
+        "amount": 6000,
+        "date": "2026-06-28",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST111": {
+    "student_name": "Neha Verma",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 12000,
+    "pending_fees": 0,
+    "due_date": "2026-07-15",
+    "status": "Paid",
+    "transactions": [
+      {
+        "id": "TXN77119",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      },
+      {
+        "id": "TXN39615",
+        "amount": 6000,
+        "date": "2026-06-28",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST112": {
+    "student_name": "Vivaan Kapoor",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN85788",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST113": {
+    "student_name": "Riya Sen",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN10406",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST114": {
+    "student_name": "Arjun Reddy",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN78585",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST115": {
+    "student_name": "Kavya Bhat",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN40476",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST116": {
+    "student_name": "Sai Prasad",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN71292",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST117": {
+    "student_name": "Pranav Pillai",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN88149",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST118": {
+    "student_name": "Shruti Hegde",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN93307",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST119": {
+    "student_name": "Dev Shah",
+    "class": "10-A",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN16289",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  },
+  "ST120": {
+    "student_name": "Alisha Das",
+    "class": "10-B",
+    "total_fees": 12000,
+    "paid_fees": 6000,
+    "pending_fees": 6000,
+    "due_date": "2026-07-15",
+    "status": "Pending",
+    "transactions": [
+      {
+        "id": "TXN84430",
+        "amount": 6000,
+        "date": "2026-06-05",
+        "status": "Success"
+      }
+    ]
+  }
+}

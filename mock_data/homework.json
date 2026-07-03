@@ -1,0 +1,762 @@
+{
+  "ST101": {
+    "student_name": "Aarav Mehta",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST102": {
+    "student_name": "Diya Sharma",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST103": {
+    "student_name": "Ishaan Patel",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST104": {
+    "student_name": "Ananya Iyer",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST105": {
+    "student_name": "Kabir Joshi",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST106": {
+    "student_name": "Meera Nair",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST107": {
+    "student_name": "Rohan Gupta",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST108": {
+    "student_name": "Siddharth Rao",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST109": {
+    "student_name": "Tara Deshmukh",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST110": {
+    "student_name": "Aditya Kulkarni",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST111": {
+    "student_name": "Neha Verma",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST112": {
+    "student_name": "Vivaan Kapoor",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST113": {
+    "student_name": "Riya Sen",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST114": {
+    "student_name": "Arjun Reddy",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST115": {
+    "student_name": "Kavya Bhat",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST116": {
+    "student_name": "Sai Prasad",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST117": {
+    "student_name": "Pranav Pillai",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST118": {
+    "student_name": "Shruti Hegde",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST119": {
+    "student_name": "Dev Shah",
+    "class": "10-A",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Completed",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  },
+  "ST120": {
+    "student_name": "Alisha Das",
+    "class": "10-B",
+    "homework_list": [
+      {
+        "id": "HW401",
+        "subject": "Mathematics",
+        "title": "Trigonometric Identites",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Solve questions 1-15 in Chapter 8."
+      },
+      {
+        "id": "HW402",
+        "subject": "Science",
+        "title": "Chemical Reactions Experiment Report",
+        "due_date": "2026-07-04",
+        "status": "Pending",
+        "description": "Submit a 2-page report detailing observations of acid-base titration."
+      },
+      {
+        "id": "HW403",
+        "subject": "English",
+        "title": "Essay on Julius Caesar",
+        "due_date": "2026-07-06",
+        "status": "Pending",
+        "description": "Write a 500-word analysis of Marcus Brutus' character."
+      },
+      {
+        "id": "HW404",
+        "subject": "Computer Science",
+        "title": "Python Loops Homework",
+        "due_date": "2026-07-02",
+        "status": "Completed",
+        "description": "Implement a script to calculate fibonacci sequence."
+      }
+    ]
+  }
+}

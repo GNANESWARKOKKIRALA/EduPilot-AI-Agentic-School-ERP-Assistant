@@ -1,0 +1,2242 @@
+{
+  "ST101": {
+    "student_name": "Aarav Mehta",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 23,
+      "absent": 2,
+      "percentage": 92.0
+    }
+  },
+  "ST102": {
+    "student_name": "Diya Sharma",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 23,
+      "absent": 2,
+      "percentage": 92.0
+    }
+  },
+  "ST103": {
+    "student_name": "Ishaan Patel",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Absent"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 22,
+      "absent": 3,
+      "percentage": 88.0
+    }
+  },
+  "ST104": {
+    "student_name": "Ananya Iyer",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 18,
+      "absent": 7,
+      "percentage": 72.0
+    }
+  },
+  "ST105": {
+    "student_name": "Kabir Joshi",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 21,
+      "absent": 4,
+      "percentage": 84.0
+    }
+  },
+  "ST106": {
+    "student_name": "Meera Nair",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 21,
+      "absent": 4,
+      "percentage": 84.0
+    }
+  },
+  "ST107": {
+    "student_name": "Rohan Gupta",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 25,
+      "absent": 0,
+      "percentage": 100.0
+    }
+  },
+  "ST108": {
+    "student_name": "Siddharth Rao",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 21,
+      "absent": 4,
+      "percentage": 84.0
+    }
+  },
+  "ST109": {
+    "student_name": "Tara Deshmukh",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Absent"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 21,
+      "absent": 4,
+      "percentage": 84.0
+    }
+  },
+  "ST110": {
+    "student_name": "Aditya Kulkarni",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 25,
+      "absent": 0,
+      "percentage": 100.0
+    }
+  },
+  "ST111": {
+    "student_name": "Neha Verma",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 17,
+      "absent": 8,
+      "percentage": 68.0
+    }
+  },
+  "ST112": {
+    "student_name": "Vivaan Kapoor",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 22,
+      "absent": 3,
+      "percentage": 88.0
+    }
+  },
+  "ST113": {
+    "student_name": "Riya Sen",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 24,
+      "absent": 1,
+      "percentage": 96.0
+    }
+  },
+  "ST114": {
+    "student_name": "Arjun Reddy",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 21,
+      "absent": 4,
+      "percentage": 84.0
+    }
+  },
+  "ST115": {
+    "student_name": "Kavya Bhat",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 25,
+      "absent": 0,
+      "percentage": 100.0
+    }
+  },
+  "ST116": {
+    "student_name": "Sai Prasad",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 24,
+      "absent": 1,
+      "percentage": 96.0
+    }
+  },
+  "ST117": {
+    "student_name": "Pranav Pillai",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 19,
+      "absent": 6,
+      "percentage": 76.0
+    }
+  },
+  "ST118": {
+    "student_name": "Shruti Hegde",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 20,
+      "absent": 5,
+      "percentage": 80.0
+    }
+  },
+  "ST119": {
+    "student_name": "Dev Shah",
+    "class": "10-A",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 21,
+      "absent": 4,
+      "percentage": 84.0
+    }
+  },
+  "ST120": {
+    "student_name": "Alisha Das",
+    "class": "10-B",
+    "records": [
+      {
+        "date": "2026-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-10",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-11",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-12",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-15",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-16",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-17",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-18",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-06-19",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-22",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-23",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-24",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-25",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-26",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-29",
+        "status": "Present"
+      },
+      {
+        "date": "2026-06-30",
+        "status": "Absent"
+      },
+      {
+        "date": "2026-07-01",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-02",
+        "status": "Present"
+      },
+      {
+        "date": "2026-07-03",
+        "status": "Present"
+      }
+    ],
+    "summary": {
+      "total_days": 25,
+      "present": 22,
+      "absent": 3,
+      "percentage": 88.0
+    }
+  }
+}

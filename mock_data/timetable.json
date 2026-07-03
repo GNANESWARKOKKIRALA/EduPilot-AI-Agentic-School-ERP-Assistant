@@ -1,0 +1,326 @@
+{
+  "10-A": {
+    "Monday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Mathematics",
+        "teacher": "Mr. Sharma"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Science",
+        "teacher": "Mrs. Verma"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Computer Science",
+        "teacher": "Ms. Roy"
+      }
+    ],
+    "Tuesday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Science",
+        "teacher": "Mrs. Verma"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Mathematics",
+        "teacher": "Mr. Sharma"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Library/Sports",
+        "teacher": "Mr. Patil"
+      }
+    ],
+    "Wednesday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Mathematics",
+        "teacher": "Mr. Sharma"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Science",
+        "teacher": "Mrs. Verma"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Computer Science",
+        "teacher": "Ms. Roy"
+      }
+    ],
+    "Thursday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Science",
+        "teacher": "Mrs. Verma"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Mathematics",
+        "teacher": "Mr. Sharma"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Art & Craft",
+        "teacher": "Ms. D'Souza"
+      }
+    ],
+    "Friday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Mathematics",
+        "teacher": "Mr. Sharma"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Science",
+        "teacher": "Mrs. Verma"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "Computer Science",
+        "teacher": "Ms. Roy"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      }
+    ]
+  },
+  "10-B": {
+    "Monday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Science",
+        "teacher": "Dr. Joseph"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Mathematics",
+        "teacher": "Ms. Deshpande"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Computer Science",
+        "teacher": "Ms. Roy"
+      }
+    ],
+    "Tuesday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Mathematics",
+        "teacher": "Ms. Deshpande"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Science",
+        "teacher": "Dr. Joseph"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Library/Sports",
+        "teacher": "Mr. Patil"
+      }
+    ],
+    "Wednesday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Science",
+        "teacher": "Dr. Joseph"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Mathematics",
+        "teacher": "Ms. Deshpande"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Computer Science",
+        "teacher": "Ms. Roy"
+      }
+    ],
+    "Thursday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Mathematics",
+        "teacher": "Ms. Deshpande"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Science",
+        "teacher": "Dr. Joseph"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Art & Craft",
+        "teacher": "Ms. D'Souza"
+      }
+    ],
+    "Friday": [
+      {
+        "period": 1,
+        "time": "08:30 - 09:15",
+        "subject": "Science",
+        "teacher": "Dr. Joseph"
+      },
+      {
+        "period": 2,
+        "time": "09:15 - 10:00",
+        "subject": "Mathematics",
+        "teacher": "Ms. Deshpande"
+      },
+      {
+        "period": 3,
+        "time": "10:15 - 11:00",
+        "subject": "English",
+        "teacher": "Mrs. Sen"
+      },
+      {
+        "period": 4,
+        "time": "11:00 - 11:45",
+        "subject": "Computer Science",
+        "teacher": "Ms. Roy"
+      },
+      {
+        "period": 5,
+        "time": "12:30 - 13:15",
+        "subject": "Social Studies",
+        "teacher": "Mr. Dwivedi"
+      }
+    ]
+  }
+}
