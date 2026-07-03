@@ -1,8 +1,14 @@
 import os
+import sys
 import json
 import streamlit as st
 import time
 from datetime import datetime
+
+# Add project root directory to python path for module imports in Streamlit Cloud
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 # Direct python imports from the app backend module
 from app.database.database import SessionLocal
