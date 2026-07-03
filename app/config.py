@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     """
     GROQ_API_KEY: str = "gsk_mock_key_for_setup_replace_me"
     GROQ_MODEL: str = "llama-3.3-70b-versatile"
-    HOST: str = "127.0.0.1"
+    HOST: str = "0.0.0.0"
     PORT: int = 8000
     BACKEND_URL: str = "http://127.0.0.1:8000"
     DATABASE_URL: str = "sqlite:///./campuspilot.db"
