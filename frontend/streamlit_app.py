@@ -248,20 +248,6 @@ def load_student_list() -> dict[str, dict]:
 with st.sidebar:
     st.markdown("<div class='brand-title'>EduPilot AI</div>", unsafe_allow_html=True)
     st.markdown("<div class='brand-subtitle'>Agentic School ERP Assistant</div>", unsafe_allow_html=True)
-    
-    # 1. Self-contained online status
-    st.markdown("API Status: <span class='status-online'>● Connected (Local Engine)</span>", unsafe_allow_html=True)
-        
-    st.markdown("---")
-    
-    # 2. Dynamic Groq Key Input
-    groq_key = st.text_input(
-        "Enter Groq API Key (Optional)", 
-        type="password",
-        placeholder="gsk_...",
-        help="Input your Groq API Key to enable Llama 3.3. If blank, EduPilot operates on offline mock fallback mode."
-    )
-    
     st.markdown("---")
     
     # 3. Student ID Selector
@@ -451,7 +437,7 @@ if user_query:
     db = SessionLocal()
     try:
         with st.spinner("EduPilot AI is planning and querying ERP tools..."):
-            chat_service = ChatService(api_key=groq_key)
+            chat_service = ChatService()
             data = chat_service.process_user_message(db, active_sid, user_query)
             
             # Render final summary with real-time typewriter effect
