@@ -11,9 +11,15 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 # Direct python imports from the app backend module
-from app.database.database import SessionLocal
-from app.database.models import ChatHistory
+from app.database.database import SessionLocal, engine
+from app.database.models import Base, ChatHistory
 from app.services.chat_service import ChatService
+
+# Auto-initialize SQLite database tables on startup if they do not exist
+try:
+    Base.metadata.create_all(bind=engine)
+except Exception as e:
+    st.error(f"Database initialization error: {str(e)}")
 
 # Streamlit Page Configurations
 st.set_page_config(
