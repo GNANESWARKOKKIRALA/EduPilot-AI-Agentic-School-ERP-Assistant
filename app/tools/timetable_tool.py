@@ -39,16 +39,23 @@ class TimetableTool:
         # Apply day filters if requested (case-insensitive match)
         filtered_timetable = class_timetable
         if day_filter:
+            day_clean = day_filter.lower().strip()
+            # Resolve 'today', 'current', 'now' keywords to the current weekday
+            if day_clean in ["today", "current", "now"]:
+                from datetime import datetime
+                day_clean = datetime.now().strftime("%A").lower()
+                
             matched_key = None
             for key in class_timetable.keys():
-                if key.lower() == day_filter.lower():
+                if key.lower() == day_clean:
                     matched_key = key
                     break
                     
             if matched_key:
                 filtered_timetable = {matched_key: class_timetable[matched_key]}
             else:
-                filtered_timetable = {}  # Empty if day is not valid
+                # Fall back to returning the full weekly timetable instead of empty dictionary
+                filtered_timetable = class_timetable
                 
         return {
             "student_name": student_name,

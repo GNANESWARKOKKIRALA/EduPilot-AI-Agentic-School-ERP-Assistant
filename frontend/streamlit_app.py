@@ -295,7 +295,33 @@ with st.sidebar:
         
     st.markdown("---")
     
-    # 5. Clear conversation history action
+    # 5. Quick Action Tools
+    st.markdown("<div style='font-size:1.0rem;font-weight:700;color:#58a6ff;margin-bottom:10px;'>🛠️ Quick Action Tools</div>", unsafe_allow_html=True)
+    if st.button("📅 Check Attendance", use_container_width=True, key="side_att"):
+        st.session_state.clicked_prompt = "Show my attendance stats."
+        st.rerun()
+    if st.button("📝 Midterm Grades", use_container_width=True, key="side_marks"):
+        st.session_state.clicked_prompt = "Show my midterm marks."
+        st.rerun()
+    if st.button("💳 Pending Dues", use_container_width=True, key="side_fees"):
+        st.session_state.clicked_prompt = "Do I have pending fees?"
+        st.rerun()
+    if st.button("🔔 Homework Tasks", use_container_width=True, key="side_hw"):
+        st.session_state.clicked_prompt = "Do I have homework due tomorrow?"
+        st.rerun()
+    if st.button("📅 Class Timetable", use_container_width=True, key="side_time"):
+        st.session_state.clicked_prompt = "Show my class timetable."
+        st.rerun()
+    if st.button("📊 Performance Report", use_container_width=True, key="side_perf"):
+        st.session_state.clicked_prompt = "Provide my overall academic performance summary."
+        st.rerun()
+    if st.button("💡 Smart Recommendations", use_container_width=True, key="side_reco"):
+        st.session_state.clicked_prompt = "Provide personalized recommendations."
+        st.rerun()
+        
+    st.markdown("---")
+    
+    # 6. Clear conversation history action
     if st.button("🗑️ Reset Chat History", use_container_width=True):
         st.session_state.messages = []
         st.success("Conversation history cleared.")
@@ -342,44 +368,13 @@ if "last_sid" not in st.session_state or st.session_state.last_sid != active_sid
 
 # Welcome dashboard if conversation is empty
 if not st.session_state.messages:
-    st.markdown("#### Hello! I am EduPilot AI, your school ERP Assistant. How can I help you today?")
+    st.markdown("#### Hello! I am **EduPilot AI**, your school ERP Assistant.")
+    st.markdown(
+        "I can answer your questions about attendance rates, midterm scores, study planners, outstanding fees, "
+        "timetable periods, homework deadlines, and personalized academic recommendations."
+    )
+    st.markdown("👉 **Tip:** Click any of the **Quick Action Tools** in the sidebar to execute a search instantly!")
     st.markdown("<br/>", unsafe_allow_html=True)
-    
-    # Row 1 (4 columns)
-    cols1 = st.columns(4)
-    with cols1[0]:
-        if st.button("📅 Attendance Logs", use_container_width=True, key="welcome_att"):
-            st.session_state.clicked_prompt = "Show my attendance stats."
-            st.rerun()
-    with cols1[1]:
-        if st.button("📝 Exams & Marks", use_container_width=True, key="welcome_marks"):
-            st.session_state.clicked_prompt = "Show my midterm marks."
-            st.rerun()
-    with cols1[2]:
-        if st.button("💳 Tuition Fees", use_container_width=True, key="welcome_fees"):
-            st.session_state.clicked_prompt = "Do I have pending fees?"
-            st.rerun()
-    with cols1[3]:
-        if st.button("🔔 Homework Tasks", use_container_width=True, key="welcome_hw"):
-            st.session_state.clicked_prompt = "Do I have homework due tomorrow?"
-            st.rerun()
-            
-    # Row 2 (3 columns)
-    cols2 = st.columns(3)
-    with cols2[0]:
-        if st.button("📅 Class Timetable", use_container_width=True, key="welcome_time"):
-            st.session_state.clicked_prompt = "Show my class timetable."
-            st.rerun()
-    with cols2[1]:
-        if st.button("📊 Performance Report", use_container_width=True, key="welcome_perf"):
-            st.session_state.clicked_prompt = "Provide my overall academic performance summary."
-            st.rerun()
-    with cols2[2]:
-        if st.button("💡 Smart Tips & Recs", use_container_width=True, key="welcome_reco"):
-            st.session_state.clicked_prompt = "Provide personalized recommendations."
-            st.rerun()
-            
-    st.markdown("<br/><br/>", unsafe_allow_html=True)
 
 # Display historical messages in chat interface
 for msg in st.session_state.messages:
@@ -408,43 +403,6 @@ for msg in st.session_state.messages:
                 st.markdown("**Execution Plan Steps:**")
                 for step in meta.get("plan", []):
                     st.markdown(f"- {step}")
-
-# Display quick suggestions above the input bar if history exists
-if st.session_state.messages:
-    st.markdown("---")
-    # Row 1 (4 columns)
-    cols_s1 = st.columns(4)
-    with cols_s1[0]:
-        if st.button("📅 Check Attendance", key="suggest_att", use_container_width=True):
-            st.session_state.clicked_prompt = "Show my attendance stats."
-            st.rerun()
-    with cols_s1[1]:
-        if st.button("📝 Midterm Grades", key="suggest_marks", use_container_width=True):
-            st.session_state.clicked_prompt = "Show my midterm marks."
-            st.rerun()
-    with cols_s1[2]:
-        if st.button("💳 Pending Dues", key="suggest_fees", use_container_width=True):
-            st.session_state.clicked_prompt = "Do I have pending fees?"
-            st.rerun()
-    with cols_s1[3]:
-        if st.button("🔔 Homework Tasks", key="suggest_hw", use_container_width=True):
-            st.session_state.clicked_prompt = "Do I have homework due tomorrow?"
-            st.rerun()
-            
-    # Row 2 (3 columns)
-    cols_s2 = st.columns(3)
-    with cols_s2[0]:
-        if st.button("📅 Class Timetable", key="suggest_time", use_container_width=True):
-            st.session_state.clicked_prompt = "Show my class timetable."
-            st.rerun()
-    with cols_s2[1]:
-        if st.button("📊 Performance Report", key="suggest_perf", use_container_width=True):
-            st.session_state.clicked_prompt = "Provide my overall academic performance summary."
-            st.rerun()
-    with cols_s2[2]:
-        if st.button("💡 Smart Tips & Recs", key="suggest_reco", use_container_width=True):
-            st.session_state.clicked_prompt = "Provide personalized recommendations."
-            st.rerun()
 
 # Capture search bar input
 chat_input_val = st.chat_input("Ask about attendance, marks, pending fees, homework due tomorrow, timetable...")
