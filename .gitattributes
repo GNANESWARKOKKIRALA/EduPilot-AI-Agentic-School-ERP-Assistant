@@ -1,0 +1,2 @@
+# Ensure bash scripts always use Unix line endings (LF) in git commits
+*.sh text eol=lf

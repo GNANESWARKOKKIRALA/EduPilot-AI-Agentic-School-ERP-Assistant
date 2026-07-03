@@ -1,9 +1,13 @@
 import os
 import json
-import requests
 import streamlit as st
 import time
 from datetime import datetime
+
+# Direct python imports from the app backend module
+from app.database.database import SessionLocal
+from app.database.models import ChatHistory
+from app.services.chat_service import ChatService
 
 # Streamlit Page Configurations
 st.set_page_config(
@@ -102,10 +106,6 @@ st.markdown(
         color: #39d353;
         font-weight: 600;
     }
-    .status-offline {
-        color: #f85149;
-        font-weight: 600;
-    }
     
     /* Custom Chat Message Bubbles styling */
     div[data-testid="stChatMessage"] {
@@ -164,21 +164,39 @@ st.markdown(
         padding: 15px !important;
         font-size: 0.85rem;
     }
+    
+    /* Welcome banner cards */
+    .welcome-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 10px;
+        padding: 18px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        height: 100%;
+        transition: transform 0.2s;
+    }
+    .welcome-card:hover {
+        transform: translateY(-3px);
+        border-color: #58a6ff;
+    }
+    .welcome-icon {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .welcome-title {
+        font-weight: bold;
+        color: #c9d1d9;
+        margin-bottom: 5px;
+    }
+    .welcome-desc {
+        font-size: 0.8rem;
+        color: #8b949e;
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
-
-# Constants
-BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
-
-def check_backend_status() -> bool:
-    """Checks whether the FastAPI backend is running."""
-    try:
-        response = requests.get(f"{BACKEND_URL}/", timeout=2)
-        return response.status_code == 200
-    except requests.RequestException:
-        return False
 
 def load_student_list() -> dict[str, dict]:
     """Loads student database metadata to display rich profile cards."""
@@ -217,15 +235,10 @@ def load_student_list() -> dict[str, dict]:
 # --- SIDEBAR CONFIGURATION ---
 with st.sidebar:
     st.markdown("<div class='brand-title'>EduPilot AI</div>", unsafe_allow_html=True)
-    st.markdown("<div class='brand-subtitle'>School ERP Assistant • Premium</div>", unsafe_allow_html=True)
+    st.markdown("<div class='brand-subtitle'>Agentic School ERP Assistant</div>", unsafe_allow_html=True)
     
-    # 1. API Health Check
-    is_online = check_backend_status()
-    if is_online:
-        st.markdown("API Status: <span class='status-online'>● Online</span>", unsafe_allow_html=True)
-    else:
-        st.markdown("API Status: <span class='status-offline'>● Offline</span>", unsafe_allow_html=True)
-        st.warning("FastAPI Backend is currently unreachable.")
+    # 1. Self-contained online status
+    st.markdown("API Status: <span class='status-online'>● Connected (Local Engine)</span>", unsafe_allow_html=True)
         
     st.markdown("---")
     
@@ -301,24 +314,33 @@ if "messages" not in st.session_state:
 if "last_sid" not in st.session_state or st.session_state.last_sid != active_sid:
     st.session_state.last_sid = active_sid
     st.session_state.messages = []
-    if is_online:
-        try:
-            res = requests.get(f"{BACKEND_URL}/chat/history?student_id={active_sid}&limit=10")
-            if res.status_code == 200:
-                history_data = res.json()
-                history_data.reverse()
-                for item in history_data:
-                    st.session_state.messages.append({
-                        "role": "user",
-                        "content": item["query"]
-                    })
-                    st.session_state.messages.append({
-                        "role": "assistant",
-                        "content": item["response"].get("summary", ""),
-                        "meta": item["response"]
-                    })
-        except Exception as e:
-            st.error(f"Failed to load database history: {str(e)}")
+    
+    db = SessionLocal()
+    try:
+        query_builder = db.query(ChatHistory).filter(ChatHistory.student_id == active_sid)
+        records = query_builder.order_by(ChatHistory.timestamp.desc()).limit(10).all()
+        
+        # Chronological sorting for rendering
+        records.reverse()
+        for r in records:
+            try:
+                parsed_resp = json.loads(r.response)
+            except Exception:
+                parsed_resp = {"summary": r.response}
+                
+            st.session_state.messages.append({
+                "role": "user",
+                "content": r.query
+            })
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": parsed_resp.get("summary", ""),
+                "meta": parsed_resp
+            })
+    except Exception as e:
+        st.error(f"Failed to load database history: {str(e)}")
+    finally:
+        db.close()
 
 # Welcome dashboard if conversation is empty
 if not st.session_state.messages:
@@ -413,83 +435,52 @@ if user_query:
         
     st.session_state.messages.append({"role": "user", "content": user_query})
     
-    # Check backend is running
-    if not is_online:
-        with st.chat_message("assistant"):
-            st.error("Cannot connect to EduPilot ERP Backend API. Please check your server connection.")
+    # Run the Agentic Chat Service process directly
+    db = SessionLocal()
+    try:
+        with st.spinner("EduPilot AI is planning and querying ERP tools..."):
+            chat_service = ChatService(api_key=groq_key)
+            data = chat_service.process_user_message(db, active_sid, user_query)
+            
+            # Render final summary with real-time typewriter effect
+            def stream_summary():
+                for word in data["summary"].split(" "):
+                    yield word + " "
+                    time.sleep(0.015)
+            st.write_stream(stream_summary())
+            
+            # Render status, intents, execution time
+            cols = st.columns([1, 1, 1, 1])
+            with cols[0]:
+                st.caption(f"🎯 **Intent:** `{data.get('intent', 'N/A')}`")
+            with cols[1]:
+                st.caption(f"🛠️ **Tool:** `{data.get('tool', 'N/A')}`")
+            with cols[2]:
+                status_val = data.get('status', 'Good')
+                color_emoji = {"Good": "🟢", "Paid": "🟢", "Warning": "🟡", "Pending": "🟡", "Critical": "🔴"}.get(status_val, "⚪")
+                st.caption(f"📊 **Status:** {color_emoji} `{status_val}`")
+            with cols[3]:
+                st.caption(f"⚡ **Latency:** `{data.get('execution_time', 0.0)}s`")
+                
+            # Collapsibles for detailed developer insight (Removed Raw ERP Payload)
+            with st.expander("🔍 Agent Reasoning Chain"):
+                st.markdown("**Execution Plan Steps:**")
+                for step in data.get("plan", []):
+                    st.markdown(f"- {step}")
+                
+            # Save response to memory state
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": data["summary"],
+                "meta": data
+            })
+            st.rerun()  # Rerun to clear prompt states
+            
+    except Exception as e:
+        st.error(f"Exception during agent processing: {str(e)}")
         st.session_state.messages.append({
             "role": "assistant",
-            "content": "Cannot connect to EduPilot ERP Backend API. Please check your server connection."
+            "content": f"Exception occurred: {str(e)}"
         })
-    else:
-        # Agent execution block
-        with st.chat_message("assistant"):
-            with st.spinner("EduPilot AI is planning and querying ERP tools..."):
-                try:
-                    payload = {
-                        "student_id": active_sid,
-                        "message": user_query
-                    }
-                    headers = {}
-                    if groq_key:
-                        headers["X-Groq-API-Key"] = groq_key
-                        
-                    response = requests.post(f"{BACKEND_URL}/chat", json=payload, headers=headers)
-                    
-                    if response.status_code == 200:
-                        data = response.json()
-                        
-                        # Render final summary with real-time typewriter effect
-                        def stream_summary():
-                            for word in data["summary"].split(" "):
-                                yield word + " "
-                                time.sleep(0.015)
-                        st.write_stream(stream_summary())
-                        
-                        # Render status, intents, execution time
-                        cols = st.columns([1, 1, 1, 1])
-                        with cols[0]:
-                            st.caption(f"🎯 **Intent:** `{data.get('intent', 'N/A')}`")
-                        with cols[1]:
-                            st.caption(f"🛠️ **Tool:** `{data.get('tool', 'N/A')}`")
-                        with cols[2]:
-                            status_val = data.get('status', 'Good')
-                            color_emoji = {"Good": "🟢", "Paid": "🟢", "Warning": "🟡", "Pending": "🟡", "Critical": "🔴"}.get(status_val, "⚪")
-                            st.caption(f"📊 **Status:** {color_emoji} `{data.get('status', 'Good')}`")
-                        with cols[3]:
-                            st.caption(f"⚡ **Latency:** `{data.get('execution_time', 0.0)}s`")
-                            
-                        # Collapsibles for detailed developer insight (Removed Raw ERP Payload)
-                        with st.expander("🔍 Agent Reasoning Chain"):
-                            st.markdown("**Execution Plan Steps:**")
-                            for step in data.get("plan", []):
-                                st.markdown(f"- {step}")
-                            
-                        # Save response to memory state
-                        st.session_state.messages.append({
-                            "role": "assistant",
-                            "content": data["summary"],
-                            "meta": data
-                        })
-                        st.rerun()  # Rerun to render suggestions properly and clear prompt states
-                        
-                    elif response.status_code == 404:
-                        error_detail = response.json().get("detail", "Student ID not found.")
-                        st.error(f"ERP Error (404): {error_detail}")
-                        st.session_state.messages.append({
-                            "role": "assistant",
-                            "content": f"ERP Error (404): {error_detail}"
-                        })
-                    else:
-                        st.error(f"Error {response.status_code}: {response.text}")
-                        st.session_state.messages.append({
-                            "role": "assistant",
-                            "content": f"System Error: {response.text}"
-                        })
-                        
-                except Exception as e:
-                    st.error(f"Exception during request dispatch: {str(e)}")
-                    st.session_state.messages.append({
-                        "role": "assistant",
-                        "content": f"Exception occurred: {str(e)}"
-                    })
+    finally:
+        db.close()
